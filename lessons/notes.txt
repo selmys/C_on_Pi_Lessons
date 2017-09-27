@@ -1,0 +1,116 @@
+
+C Library Functions		-lc
+	printf()
+	scanf()
+	strcmp()
+	getuid()
+	clock_gettime()
+	strcpy()
+
+Math Library Functions		-lm
+	pow()
+	sqrt()
+
+Wiring Pi Library Functions	-lwiringPi
+	wiringPiSetupGpio()
+	pinMode()
+	digitalWrite()
+	delay()
+	pwmWrite()
+	softPwmWrite()
+	softPwmCreate()
+	micros()
+	delayMicroseconds()
+	digitalRead()
+	
+Header Files
+	stdio.h
+	string.h
+	wiringPi.h
+	unistd.h
+	softPwm.h
+	
+How Functions Communicate
+	1. Use parameters/arguments to pass data between them
+	2. Use the return statement to pass a value back to the 
+		calling function
+	3. Use global variables
+
+C Language Statements
+	for loop
+	while loop
+	if statement
+	switch statement
+	return statement
+	
+C Language Operators
+	&	 "Address of" used in scanf() function
+			(but has other meaning as well)
+	*	 "Pointer to"
+			(but has other meaning as well)
+			multiplication 2 * 2 = 4
+	==	 comparison operator
+	=	 assignment operator
+	+	 arithmetic addition
+
+C Language Data
+	float
+	int
+	char
+	arrays
+	struct(ures)
+	
+C Language Terms
+	Compile
+	Library
+	Call by Value
+	Actual Parameter/Argument
+	Formal Parameter/Argument
+	Function Prototype
+	Return Value
+	Pointer
+	Address
+	Scope - Local - Global
+	Function Coupling
+	Exit Code - zero means program was successful
+				> zero means program was unsuccessful
+	Casting
+	Dot Notation - used to access members of a struct(ure)
+	
+Linux Commands
+	cat 	- concatenate files and print on the standard output
+	cd 		- change  the  current  directory
+	gcc 	- GNU project C and C++ compiler
+	geany 	- a small and lightweight IDE
+	ldd 	- print shared object dependencies
+	ls 		- list directory contents
+	mkdir 	- make directories
+	wc 		- print newline, word, and byte counts for each file
+	grep 	- search for strings in a file
+	bc		- arbitrary precision calculator
+	echo 	- display strings on screen
+	rev		- reverse a string
+	gpio	- list or set gpio values
+	indent 	- make your c code look good
+	vi 		- VIsual editor - first Unix editor ~1970
+	dia		- Gnome Diagram Tool
+	fritzing - breadboard tool
+	time	- to time any linux command
+	
+Electronics
+	pwm 	- Pulse Width Modulation
+	duty cycle - square wave % on and off
+	
+C Language Operators
+	Arithmetic Operators. + - / * % order follows BEDMAS
+	Relational Operators. >= == <
+	Logical Operators. && ||
+	Assignment Operators. =
+	Increment and Decrement Operators. ++ --
+	Conditional Operator. 
+	Bitwise Operator. 
+	Special Operators.
+	
+Standards
+	ANSI
+	ASCII

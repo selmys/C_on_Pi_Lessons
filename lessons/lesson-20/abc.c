@@ -1,0 +1,12 @@
+#include <stdio.h>
+int
+main ()
+{
+  int x = 3;
+  printf ("Hello\n");
+  x = x + 1;
+  printf ("x is %d\n", x);
+  x = x - 2;
+  printf ("bye");
+  return 0;
+}
