@@ -114,3 +114,8 @@ C Language Operators
 Standards
 	ANSI
 	ASCII
+	
+C99 Features
+	declare loop control variables inside the for loop
+	declare variables almost anywhere - in c89 we had to declare 
+		immediately after an open brace {
