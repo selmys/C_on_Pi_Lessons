@@ -29,6 +29,7 @@ Header Files
 	wiringPi.h
 	unistd.h
 	softPwm.h
+	stdbool.h
 	
 How Functions Communicate
 	1. Use parameters/arguments to pass data between them
@@ -59,6 +60,7 @@ C Language Data
 	char
 	arrays
 	struct(ures)
+	bool
 	
 C Language Terms
 	Compile
@@ -101,14 +103,14 @@ Electronics
 	pwm 	- Pulse Width Modulation
 	duty cycle - square wave % on and off
 	
-C Language Operators
+C Language Operators (unary, binary and trinary)
 	Arithmetic Operators. + - / * % order follows BEDMAS
 	Relational Operators. >= == <
 	Logical Operators. && ||
 	Assignment Operators. =
 	Increment and Decrement Operators. ++ --
-	Conditional Operator. 
-	Bitwise Operator. 
+	Conditional Operator.  ?:
+	Bitwise Operator. | &
 	Special Operators.
 	
 Standards
