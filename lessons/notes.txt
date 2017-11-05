@@ -47,7 +47,7 @@ C Language Statements
 C Language Operators
 	&	 "Address of" used in scanf() function
 			(but has other meaning as well)
-	*	 "Pointer to"
+	*	 "Pointer to" dereference operator
 			(but has other meaning as well)
 			multiplication 2 * 2 = 4
 	==	 comparison operator
@@ -78,6 +78,7 @@ C Language Terms
 				> zero means program was unsuccessful
 	Casting
 	Dot Notation - used to access members of a struct(ure)
+	Pointer arithmetic
 	
 Linux Commands
 	cat 	- concatenate files and print on the standard output
