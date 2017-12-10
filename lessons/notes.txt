@@ -122,3 +122,10 @@ C99 Features
 	declare loop control variables inside the for loop
 	declare variables almost anywhere - in c89 we had to declare 
 		immediately after an open brace {
+		
+FILE I/O
+	1. Text files - files that we can view with cat/more commands
+					encoded using ASCII codes (table)
+	2. Binary files - can display their contents using od (octal dump)
+						encoded in binary.
+	
