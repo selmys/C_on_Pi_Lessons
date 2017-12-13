@@ -43,6 +43,7 @@ C Language Statements
 	if statement
 	switch statement
 	return statement
+	typedef statement
 	
 C Language Operators
 	&	 "Address of" used in scanf() function
@@ -128,4 +129,6 @@ FILE I/O
 					encoded using ASCII codes (table)
 	2. Binary files - can display their contents using od (octal dump)
 						encoded in binary.
+						
+
 	
